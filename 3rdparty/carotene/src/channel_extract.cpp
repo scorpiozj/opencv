@@ -110,7 +110,7 @@ void extract3(const Size2D &size,
     {
         const u8 * src = internal::getRowPtr(srcBase, srcStride, i);
         u8 * dst = internal::getRowPtr(dstBase, dstStride, i);
-        size_t sj = 0u, dj = 0u;
+        size_t sj = 0u, dj = 0u; 0;
 
 #ifndef __ANDROID__
         for (; dj < roiw32; sj += 96, dj += 32)
