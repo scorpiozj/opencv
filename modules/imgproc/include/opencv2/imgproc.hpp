@@ -51,7 +51,7 @@
 This module includes image-processing functions.
 
   @{
-    @defgroup imgproc_filter Image Filtering
+    @defgroup imgproc_filter Image Filtering. 
 
 Functions and classes described in this section are used to perform various linear or non-linear
 filtering operations on 2D images (represented as Mat's). It means that for each pixel location
